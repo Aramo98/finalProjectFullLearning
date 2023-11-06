@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-items: flex-start;
+  z-index: 1;
+  background-color: #fff;
+}
+header .logoBlock {
+  width: auto;
+  height: auto;
+}
+header .logoBlock a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .iconBtn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.navBlock {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.aplicationBlock {
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.lightDarkBlock {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  position: relative;
+  padding-left: 5px;
+}
+.lightDarkBlock .iconBlock {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+  font-size: 30px;
+  margin: 20px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  position: relative;
+}
+ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #000;
+  transition: all 0.5s ease;
+}
+ul li:hover {
+  transform: scale(1.1);
+}
+ul li:hover::before {
+  width: 50%;
+}
+ul li:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.languageBlock {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.languageBlock button {
+  border: none;
+  background: none;
+  color: #ccc;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,66 @@
+.addressBlock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.addressBlock .locationBlock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addressBlock .locationBlock .Header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+.addressBlock .locationBlock .Header h2 {
+  font-size: 40px;
+}
+.addressBlock .locationBlock .Header p {
+  font-size: 25px;
+}
+.addressBlock .socialBlock {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.addressBlock .socialBlock .SocialHeader h2 {
+  font-size: 40px;
+}
+.addressBlock .socialBlock .scl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addressBlock .socialBlock .scl ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  gap: 15px;
+}
+.addressBlock .socialBlock .scl ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+.addressBlock .socialBlock .scl ul li:hover .facebook {
+  color: blue;
+}
+.addressBlock .socialBlock .scl ul li:hover .twitter {
+  color: rgb(12, 144, 210);
+}
+.addressBlock .socialBlock .scl ul li:hover .instagram {
+  color: rgb(237, 13, 54);
+}
+.addressBlock .socialBlock .scl ul li:hover .googleplus {
+  color: rgb(237, 20, 13);
+}/*# sourceMappingURL=adress.css.map */

@@ -1,0 +1,88 @@
+.ChefsBlock {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.ChefsBlock .Circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  top: -19%;
+  flex-direction: column;
+  gap: 15px;
+}
+.ChefsBlock .Circle .iconBlock {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChefsBlock .Circle .iconBlock img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ChefsBlock .shortTextBlock {
+  width: auto;
+}
+
+.imageBlock {
+  width: 182px;
+  height: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imageBlock img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modalBlock {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 991px) {
+  .ChefsBlock {
+    height: 150vh;
+  }
+  .ChefsBlock .Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -13%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .blockgeneral {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}/*# sourceMappingURL=sectionSix.css.map */

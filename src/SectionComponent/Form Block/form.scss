@@ -1,0 +1,64 @@
+$display:flex;
+$justifyContent:center;
+$alignItems:center;
+$flexDirection:column;
+
+
+.FormBlock{
+    width: 100%;
+    height: 100%;
+    display: $display;
+    justify-content: $justifyContent;
+    align-items: flex-start;
+    flex-direction: $flexDirection;
+
+    padding-left: 10%;
+    h2{
+        font-size: 40px;
+    }
+    .form{
+        display: $display;
+        justify-content: $justifyContent;
+        align-items: flex-start;
+        flex-direction: $flexDirection; 
+        gap: 30px;
+        .inputBox{
+            width: 450px;
+            height: 70px;
+            display: $display;
+            justify-content: $justifyContent;
+            align-items: flex-start;
+            flex-direction: $flexDirection; 
+            input{
+                width: 100%;
+                height: 100%;
+            background: #f0eded;
+            border: none ;
+            outline: none;
+            padding: 15px;
+            color: #c4bdbd;;
+            &::placeholder{
+                color: #c4bdbd;
+            }
+            }
+        }
+
+        .textAreaBox{
+            width: 450px;
+            height: 100px;
+            textarea{
+                width: 100%;
+                height: 100%;
+                resize: none;
+                background: #f0eded;
+                border: none ;
+                outline: none;
+                padding: 15px;
+                color: #c4bdbd;;
+                &::placeholder{
+                    color: #c4bdbd;
+                }
+            }
+        }
+    }
+}

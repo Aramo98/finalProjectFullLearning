@@ -1,0 +1,101 @@
+
+.videoBlock{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    clip-path: polygon(00 12%, 100% 0, 100% 89%, 0% 100%);
+    position: relative;
+
+    video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 35px;
+        .circleHeader{
+            width: 350px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 5px solid #ffff;
+            h1{
+                text-align: center;
+                color: #ffff;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+
+.services{
+    width: 100%;
+    height: auto;
+}
+
+.iconImage{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .videoBlock{
+        .overlay{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .circleHeader{
+                width: 250px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 5px solid #ffff;
+                h1{
+                    text-align: center;
+                    color: #ffff;
+                    font-size: 25px;
+                }
+            }
+            
+        }
+        .circle{
+            display: none;
+         
+        
+        }
+    }
+    .circle{
+        display: none;
+     
+    
+    }
+    
+}

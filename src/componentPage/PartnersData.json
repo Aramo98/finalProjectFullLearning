@@ -1,0 +1,25 @@
+[
+    {
+        "id":1,
+        "image":"https://media-cdn.tripadvisor.com/media/photo-s/1b/15/df/a4/tumanyanshaurma.jpg",
+        "website":"https://www.tshaurma.com/am/home"
+    },
+    {
+
+        "id":2,
+        "image":"https://static.ucraft.net/fs/ucraft/userFiles/mrgyros/images/logo.png?v=1584129046",
+        "website" :"https://www.mrgyros.am/"
+    },
+    {
+
+        "id":3,
+        "image":"https://www.careercenter.am/storage/images/logos/1573113012723556239.png",
+        "website":"https://www.karas.am/ru/"
+    },
+    {
+        "id":4,
+        "image":"https://tashirpizza.am/images/logo.svg",
+        "website":"https://tashirpizza.am/"
+    }
+
+]

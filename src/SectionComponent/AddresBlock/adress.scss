@@ -1,0 +1,83 @@
+
+$display:flex;
+$justifyContent:center;
+$alignItems:center;
+$flexDirection:column;
+
+.addressBlock{
+    display: $display;
+    justify-content: $justifyContent;
+    align-items: flex-start;
+    flex-direction: $flexDirection;
+    width: 100%;
+    height: auto;
+   
+    .locationBlock{
+        display: $display;
+        justify-content: flex-start;
+        align-items: $alignItems; 
+        .Header{
+            display: $display;
+    justify-content: $justifyContent;
+    align-items: flex-start;
+    flex-direction: $flexDirection;
+    gap: 15px;
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+
+    .socialBlock{
+        display: $display;
+        justify-content: $justifyContent;
+        align-items: flex-start;
+        flex-direction: $flexDirection;
+        .SocialHeader{
+            h2{
+                font-size: 40px;
+            }
+        }
+        .scl{
+            display: $display;
+            justify-content: flex-start;
+            align-items: $alignItems;
+      
+            ul{
+                list-style: none;
+                display: $display;
+                justify-content: flex-start;
+                align-items: $alignItems;
+                padding: 0;
+                 gap: 15px;
+                li{
+
+                   
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 30px;
+                        transition: all 0.5s ease; 
+                    }
+                    &:hover{
+                        .facebook{
+                         color:blue
+                        }
+                        .twitter{
+                            color:rgb(12, 144, 210)
+                           }
+                           .instagram{
+                            color: rgb(237, 13, 54);
+                           }
+                           .googleplus{
+                            color: rgb(237, 20, 13);
+                           }
+                     }
+                }
+            }
+        }
+    }
+}

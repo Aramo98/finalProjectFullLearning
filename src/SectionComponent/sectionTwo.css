@@ -1,0 +1,58 @@
+.SecondBlock {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.SecondBlock .Circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 330px;
+  height: 330px;
+  z-index: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  top: -21%;
+  flex-direction: column;
+  gap: 15px;
+}
+.SecondBlock .Circle .imgBlock {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SecondBlock .Circle .imgBlock img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ReadBtn {
+  transition: all 0.1s cubic-bezier(0.18, -0.3, 0.84, 1.36);
+}
+.ReadBtn:hover {
+  transform: translateX(15px);
+}
+
+@media screen and (max-width: 991px) {
+  .SecondBlock {
+    background-color: aqua;
+    height: auto;
+  }
+  .SecondBlock .Circle {
+    display: none;
+  }
+  .SecondBlock .MenuBlock {
+    flex-wrap: wrap;
+  }
+  .SecondBlock .MenuBlock .cards {
+    width: 18rem;
+  }
+}/*# sourceMappingURL=sectionTwo.css.map */

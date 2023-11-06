@@ -1,0 +1,62 @@
+.FormBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 10%;
+}
+.FormBlock h2 {
+  font-size: 40px;
+}
+.FormBlock .form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.FormBlock .form .inputBox {
+  width: 450px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.FormBlock .form .inputBox input {
+  width: 100%;
+  height: 100%;
+  background: #f0eded;
+  border: none;
+  outline: none;
+  padding: 15px;
+  color: #c4bdbd;
+}
+.FormBlock .form .inputBox input::-moz-placeholder {
+  color: #c4bdbd;
+}
+.FormBlock .form .inputBox input::placeholder {
+  color: #c4bdbd;
+}
+.FormBlock .form .textAreaBox {
+  width: 450px;
+  height: 100px;
+}
+.FormBlock .form .textAreaBox textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background: #f0eded;
+  border: none;
+  outline: none;
+  padding: 15px;
+  color: #c4bdbd;
+}
+.FormBlock .form .textAreaBox textarea::-moz-placeholder {
+  color: #c4bdbd;
+}
+.FormBlock .form .textAreaBox textarea::placeholder {
+  color: #c4bdbd;
+}/*# sourceMappingURL=form.css.map */

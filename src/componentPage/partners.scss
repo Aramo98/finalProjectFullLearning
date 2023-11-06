@@ -1,0 +1,124 @@
+
+.videoBlockOne{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    clip-path: polygon(00 12%, 100% 0, 100% 89%, 0% 100%);
+    position: relative;
+
+    video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .circleHeader{
+            width: 450px;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 5px solid #ffff;
+            h1{
+                text-align: center;
+                color: #ffff;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    flex-direction: column;
+    top: 110%;
+    left: 43%;
+    transform: translate(-50px, -50px);
+    gap: 15px;
+    z-index: 1;
+.partnerImage{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+}
+
+.partnersBlock{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    position: relative;
+
+    .headerPartner{
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .videoBlockOne{
+        .overlay{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .circleHeader{
+                width: 250px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 5px solid #ffff;
+                h1{
+                    text-align: center;
+                    color: #ffff;
+                    font-size: 25px;
+                }
+            }
+            
+        }
+        .circle{
+            display: none;
+         
+        
+        }
+    }
+    .circle{
+        display: none;
+     
+    
+    }
+    
+}

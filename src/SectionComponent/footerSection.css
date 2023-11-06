@@ -1,0 +1,16 @@
+.footerCont {
+  width: 100%;
+  height: 100vh;
+  gap: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .footerCont {
+    flex-direction: column;
+    height: auto;
+  }
+}/*# sourceMappingURL=footerSection.css.map */
